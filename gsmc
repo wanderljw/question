@@ -1,0 +1,987 @@
+D:\work\apache-tomcat-7.0.72\bin\catalina.bat run
+[2017-02-03 09:32:49,200] Artifact slot_office:Web exploded: Server is not connected. Deploy is not available.
+Using CATALINA_BASE:   "C:\Users\wander\.IntelliJIdea2016.2\system\tomcat\Unnamed_slot_3"
+Using CATALINA_HOME:   "D:\work\apache-tomcat-7.0.72"
+Using CATALINA_TMPDIR: "D:\work\apache-tomcat-7.0.72\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk1.6.0_45"
+Using CLASSPATH:       "D:\work\apache-tomcat-7.0.72\bin\bootstrap.jar;D:\work\apache-tomcat-7.0.72\bin\tomcat-juli.jar"
+Connected to the target VM, address: '127.0.0.1:50587', transport: 'socket'
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.72
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Sep 14 2016 12:12:26 UTC
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.72.0
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 8
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.2
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.6.0_45\jre
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.6.0_45-b06
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Sun Microsystems Inc.
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\wander\.IntelliJIdea2016.2\system\tomcat\Unnamed_slot_3
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\work\apache-tomcat-7.0.72
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:50587,suspend=y,server=n
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote=
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.port=6092
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\wander\.IntelliJIdea2016.2\system\tomcat\Unnamed_slot_3\conf\logging.properties
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\work\apache-tomcat-7.0.72\endorsed
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\wander\.IntelliJIdea2016.2\system\tomcat\Unnamed_slot_3
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\work\apache-tomcat-7.0.72
+2017-2-3 9:32:50 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\work\apache-tomcat-7.0.72\temp
+2017-2-3 9:32:50 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.2.8 using APR version 1.5.2.
+2017-2-3 9:32:50 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2017-2-3 9:32:50 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.2h  3 May 2016)
+2017-2-3 9:32:50 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-6082"]
+2017-2-3 9:32:50 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-49651"]
+2017-2-3 9:32:50 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 990 ms
+2017-2-3 9:32:50 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2017-2-3 9:32:50 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.72
+2017-2-3 9:32:50 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-6082"]
+2017-2-3 9:32:50 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-49651"]
+2017-2-3 9:32:50 org.apache.catalina.startup.Catalina start
+信息: Server startup in 47 ms
+Connected to server
+[2017-02-03 09:32:51,296] Artifact slot_office:Web exploded: Artifact is being deployed, please wait...
+2017-2-3 9:32:51 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:51 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:51 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:53 java.util.jar.Attributes read
+警告: Duplicate name in Manifest: SHA1-Digest.
+Ensure that the manifest does not have duplicate entries, and
+that blank lines separate individual sections in both your
+manifest and in the META-INF/MANIFEST.MF entry in the jar file.
+2017-2-3 9:32:55 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://www.springframework.org/tags/form is already defined
+2017-2-3 9:32:55 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://www.springframework.org/tags is already defined
+2017-2-3 9:32:55 org.apache.catalina.startup.TaglibUriRule body
+信息: TLD skipped. URI: http://www.opensymphony.com/oscache is already defined
+2017-2-3 9:32:55 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-2-3 9:32:55 org.apache.tomcat.websocket.server.WsSci onStartup
+信息: JSR 356 WebSocket (Java WebSocket 1.1) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+2017-02-03 09:32:56,049 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2017-02-03 09:32:56,082 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing org.springframework.web.context.support.XmlWebApplicationContext@13bde392: display name [Root WebApplicationContext]; startup date [Fri Feb 03 09:32:56 CST 2017]; root of context hierarchy
+2017-02-03 09:32:56,129 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2017-02-03 09:32:56,293 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-dao.xml]
+2017-02-03 09:32:56,316 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-service.xml]
+2017-02-03 09:32:56,359 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-init.xml]
+2017-02-03 09:32:56,374 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-office-action.xml]
+2017-02-03 09:32:56,405 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-util.xml]
+2017-02-03 09:32:56,424 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-dwr.xml]
+2017-02-03 09:32:56,436 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext-quartz.xml]
+2017-02-03 09:32:56,468 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@13bde392]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6d4b2819
+2017-02-03 09:32:56,657 INFO [org.jasypt.spring.properties.EncryptablePropertyPlaceholderConfigurer] - Loading properties file from class path resource [init.properties]
+2017-02-03 09:32:56,695 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6d4b2819: defining beans [environmentVariablesConfiguration,configurationEncryptor,propertyConfigurer,dataSource,dataSourceMGS,dataSourceSlave,dataSourceBL,dataSourceTwo,sessionFactory,sessionFactorySlave,sessionFactoryBL,sessionFactoryTwo,sessionFactoryMGS,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allservices,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,blDao,slaveDao,profitEaDao,guestbookDao,universalDao,telvisitDao,userstatusDao,bankinfoDao,telvisitremarkDao,telvisittaskDao,howToKnowStatisticsDao,fundStatisticsDao,userbankinfoDao,gameinfoDao,seqDao,logDao,tradeDao,userDao,transferDao,taskDao,operatorDao,proposalDao,announcementDao,netPayDao,getdataDao,constDao,smWeeklyDao,qifnDao,mgsDao,bankStatusDao,slaveService,guestBookService,proxyFlowService,universalService,agentReferralsStatisticService,telvisitService,userstatusService,bankinfoService,intransferService,howToKnowStatisticsServiceImpl,fundStatisticsServiceImpl,userbankinfoServiceImpl,synMemberInfoServiceImpl,addXimaProposalService,addBatchXimaProposalService,addBatchProfitProposalService,addBatchPrizeProposalService,excelsendMail,addCommissionsService,execXimaProposalService,execBatchXimaProposalService,execBatchExecProfitService,execBatchExecPrizeService,ximasendMessageService,execCommissionsService,updateXimaProposalService,employeeManagerService,firstCashinUsres,seqService,customerService,agentService,transferService,proposalService,netpayService,operatorService,announcementService,autoDeposit,systemConfigService,operatorNewService,notifyService,eaOfficeFetchService,getdateService,losepromoService,weekSentService,autoUpgradeService,allProjectService,friendMoneyDistributeService,fetchEBetAppJobService,mgsService,bankStatusService,dfh.remote.RemoteConstant#0,dfh.utils.Constants#0,BLActionClass,OfficeClass,OfficeProxyClass,agentReferralsStatisticActionClass,telvisittaskClass,userstatusClass,bankinfoClass,intranferClass,telvisitClass,howToKnowStatisticsClass,fundStatisticsClass,UserbankinfoActionClass,ximaActionClass,ximaBatchActionClass,fetchNTwoJobService,employeeClass,FirstCashinUsresClass,AnnouncementClass,AjaxQueryClass,OfficeGuestbookAction,AutoCommissionrecordsAction,AutoXimaActionClass,NetPayClass,OfficeProfitEaAction,OfficeImageAction,i18nClass,systemConfigAction,allProjectAction,mgsAction,BankStatusAction,emailSender,databaseNow,dfh.utils.DateUtil#0,springFactoryHepler,synMemberInfo,fetchIcbcJobService,jobDetail,fetchTrigger,fetchCmbJobService,jobCmbDetail,fetchCmbTrigger,fetchAlipayJobService,jobAlipayDetail,fetchAlipayTrigger,fetchPtJobService,jobPtDetail,fetchPtTrigger,fetchNewPtJobService,jobNewPtDetail,fetchNewPtTrigger,fetchUsersJobService,jobUsersDetail,fetchUsersTrigger,fetchAgSlotJobService,jobAgSlotDetail,fetchAgSlotTrigger,fetchNewPtXXJobService,jobNewPtXXDetail,fetchNewPtXXTrigger,fetchSixLotteryJobService,jobSixLotteryDetail,fetchSixLotteryTrigger,fetchYouHuiJob,jobYouHuiDetail,fetchYouHuiTrigger,fetchDepositJob,jobDepositDetail,fetchDepositTrigger,fetchDepositJobTwo,jobDepositDetailTwo,fetchDepositTriggerTwo,discardDepositOrderDetail,discardDepositOrderTrigger,fetchQtJobService,jobQtDetail,fetchQtTrigger,smWeeklyJob,fetchCreditService,jobCreditDetail,fetchCreditTrigger,mgdata2KPIService,jobmgdata2KPIDetail,mgdata2KPITrigger,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2017-02-03 09:32:56,936 INFO [org.hibernate.cfg.annotations.Version] - Hibernate Annotations 3.3.0.GA
+2017-02-03 09:32:56,945 INFO [org.hibernate.cfg.Environment] - Hibernate 3.2.5
+2017-02-03 09:32:56,948 INFO [org.hibernate.cfg.Environment] - hibernate.properties not found
+2017-02-03 09:32:56,950 INFO [org.hibernate.cfg.Environment] - Bytecode provider name : cglib
+2017-02-03 09:32:56,952 INFO [org.hibernate.cfg.Environment] - using JDK 1.4 java.sql.Timestamp handling
+2017-02-03 09:32:57,060 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Accountinfo
+2017-02-03 09:32:57,088 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Accountinfo on table accountinfo
+2017-02-03 09:32:57,119 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Actionlogs
+2017-02-03 09:32:57,120 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Actionlogs on table actionlogs
+2017-02-03 09:32:57,125 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Announcement
+2017-02-03 09:32:57,126 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Announcement on table announcement
+2017-02-03 09:32:57,128 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Autotask
+2017-02-03 09:32:57,128 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Autotask on table autotask
+2017-02-03 09:32:57,130 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Banktransfercons
+2017-02-03 09:32:57,130 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Banktransfercons on table banktransfercons
+2017-02-03 09:32:57,132 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Betrecords
+2017-02-03 09:32:57,132 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Betrecords on table betrecords
+2017-02-03 09:32:57,134 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Cashin
+2017-02-03 09:32:57,134 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Cashin on table cashin
+2017-02-03 09:32:57,136 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Cashout
+2017-02-03 09:32:57,136 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Cashout on table cashout
+2017-02-03 09:32:57,139 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Commissionrecords
+2017-02-03 09:32:57,139 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Commissionrecords on table commissionrecords
+2017-02-03 09:32:57,146 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Commissions
+2017-02-03 09:32:57,147 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Commissions on table commissions
+2017-02-03 09:32:57,149 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Concessions
+2017-02-03 09:32:57,150 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Concessions on table concessions
+2017-02-03 09:32:57,151 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Const
+2017-02-03 09:32:57,152 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Const on table const
+2017-02-03 09:32:57,153 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Creditlogs
+2017-02-03 09:32:57,153 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Creditlogs on table creditlogs
+2017-02-03 09:32:57,154 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.InnodbMonitor
+2017-02-03 09:32:57,155 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.InnodbMonitor on table innodb_monitor
+2017-02-03 09:32:57,156 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Netpay
+2017-02-03 09:32:57,156 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Netpay on table netpay
+2017-02-03 09:32:57,158 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Newaccount
+2017-02-03 09:32:57,159 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Newaccount on table newaccount
+2017-02-03 09:32:57,161 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Offer
+2017-02-03 09:32:57,161 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Offer on table offer
+2017-02-03 09:32:57,162 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Operationlogs
+2017-02-03 09:32:57,163 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Operationlogs on table operationlogs
+2017-02-03 09:32:57,164 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Operator
+2017-02-03 09:32:57,165 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Operator on table operator
+2017-02-03 09:32:57,168 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Payorder
+2017-02-03 09:32:57,168 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Payorder on table payorder
+2017-02-03 09:32:57,171 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Prize
+2017-02-03 09:32:57,171 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Prize on table prize
+2017-02-03 09:32:57,172 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Proposal
+2017-02-03 09:32:57,173 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Proposal on table proposal
+2017-02-03 09:32:57,178 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Rebankinfo
+2017-02-03 09:32:57,179 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Rebankinfo on table rebankinfo
+2017-02-03 09:32:57,181 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Remoteurls
+2017-02-03 09:32:57,181 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Remoteurls on table remoteurls
+2017-02-03 09:32:57,182 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Seq
+2017-02-03 09:32:57,183 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Seq on table seq
+2017-02-03 09:32:57,184 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Task
+2017-02-03 09:32:57,184 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Task on table task
+2017-02-03 09:32:57,186 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Transfer
+2017-02-03 09:32:57,186 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Transfer on table transfer
+2017-02-03 09:32:57,188 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Users
+2017-02-03 09:32:57,188 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Users on table users
+2017-02-03 09:32:57,196 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Xima
+2017-02-03 09:32:57,196 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Xima on table xima
+2017-02-03 09:32:57,198 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.New_NetPay
+2017-02-03 09:32:57,198 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.New_NetPay on table new_netpay
+2017-02-03 09:32:57,200 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GGameinfo
+2017-02-03 09:32:57,200 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GGameinfo on table g_gameinfo
+2017-02-03 09:32:57,203 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Userbankinfo
+2017-02-03 09:32:57,203 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Userbankinfo on table userbankinfo
+2017-02-03 09:32:57,204 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BankStatus
+2017-02-03 09:32:57,205 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BankStatus on table t_bank_status
+2017-02-03 09:32:57,206 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisit
+2017-02-03 09:32:57,206 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisit on table telvisit
+2017-02-03 09:32:57,208 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisitremark
+2017-02-03 09:32:57,208 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisitremark on table telvisitremark
+2017-02-03 09:32:57,209 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisittask
+2017-02-03 09:32:57,210 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisittask on table telvisittask
+2017-02-03 09:32:57,212 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Userstatus
+2017-02-03 09:32:57,212 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Userstatus on table userstatus
+2017-02-03 09:32:57,214 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Bankinfo
+2017-02-03 09:32:57,214 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Bankinfo on table bankinfo
+2017-02-03 09:32:57,219 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Intransfer
+2017-02-03 09:32:57,219 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Intransfer on table intransfer
+2017-02-03 09:32:57,221 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CashinRecord
+2017-02-03 09:32:57,222 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CashinRecord on table cashinrecord
+2017-02-03 09:32:57,224 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.IcbcTransfers
+2017-02-03 09:32:57,225 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.IcbcTransfers on table icbc_transfers
+2017-02-03 09:32:57,227 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BusinessProposal
+2017-02-03 09:32:57,228 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BusinessProposal on table businessproposal
+2017-02-03 09:32:57,230 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.EaProfit
+2017-02-03 09:32:57,231 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.EaProfit on table eaprofit
+2017-02-03 09:32:57,232 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgProfit
+2017-02-03 09:32:57,232 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgProfit on table agprofit
+2017-02-03 09:32:57,234 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgTryProfit
+2017-02-03 09:32:57,235 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgTryProfit on table agtryprofit
+2017-02-03 09:32:57,236 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgTryGame
+2017-02-03 09:32:57,237 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgTryGame on table agtrygame
+2017-02-03 09:32:57,238 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BankCreditlogs
+2017-02-03 09:32:57,239 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BankCreditlogs on table bankcreditlogs
+2017-02-03 09:32:57,241 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Customer
+2017-02-03 09:32:57,241 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Customer on table other_customer
+2017-02-03 09:32:57,245 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Activity
+2017-02-03 09:32:57,245 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Activity on table activity
+2017-02-03 09:32:57,247 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CmbTransfers
+2017-02-03 09:32:57,248 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CmbTransfers on table cmb_transfers
+2017-02-03 09:32:57,250 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtProfit
+2017-02-03 09:32:57,250 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtProfit on table ptprofit
+2017-02-03 09:32:57,251 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HdImage
+2017-02-03 09:32:57,252 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HdImage on table hd_image
+2017-02-03 09:32:57,254 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Sbcoupon
+2017-02-03 09:32:57,254 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Sbcoupon on table sb_coupon
+2017-02-03 09:32:57,256 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Sbbets
+2017-02-03 09:32:57,256 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Sbbets on table sb_bets
+2017-02-03 09:32:57,257 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GameTransfers
+2017-02-03 09:32:57,258 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GameTransfers on table gametransfers
+2017-02-03 09:32:57,261 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QuotalRevision
+2017-02-03 09:32:57,262 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QuotalRevision on table quotalrevision
+2017-02-03 09:32:57,264 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtData
+2017-02-03 09:32:57,264 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtData on table pt_data
+2017-02-03 09:32:57,268 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCoupon
+2017-02-03 09:32:57,268 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCoupon on table pt_coupon
+2017-02-03 09:32:57,270 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtDataNew
+2017-02-03 09:32:57,270 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtDataNew on table pt_data_new
+2017-02-03 09:32:57,273 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PlatformData
+2017-02-03 09:32:57,273 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PlatformData on table platform_data
+2017-02-03 09:32:57,275 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PreferentialRecord
+2017-02-03 09:32:57,275 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PreferentialRecord on table preferential_record
+2017-02-03 09:32:57,277 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PreferTransferRecord
+2017-02-03 09:32:57,278 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PreferTransferRecord on table prefer_transfer_record
+2017-02-03 09:32:57,279 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AlipayTransfers
+2017-02-03 09:32:57,280 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AlipayTransfers on table alipay_transfers
+2017-02-03 09:32:57,282 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DepositOrder
+2017-02-03 09:32:57,283 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DepositOrder on table deposit_order
+2017-02-03 09:32:57,285 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.ValidateAmountDeposit
+2017-02-03 09:32:57,285 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.ValidateAmountDeposit on table validateamount_transfer
+2017-02-03 09:32:57,288 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PayOrderValidation
+2017-02-03 09:32:57,288 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PayOrderValidation on table payorder_validation
+2017-02-03 09:32:57,290 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.YouHuiConfig
+2017-02-03 09:32:57,291 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.YouHuiConfig on table youhui_config
+2017-02-03 09:32:57,293 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBConfig
+2017-02-03 09:32:57,293 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBConfig on table hb_config
+2017-02-03 09:32:57,295 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentAddress
+2017-02-03 09:32:57,295 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentAddress on table agent_address
+2017-02-03 09:32:57,296 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PayMerchant
+2017-02-03 09:32:57,296 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PayMerchant on table paymerchant
+2017-02-03 09:32:57,298 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.LosePromo
+2017-02-03 09:32:57,298 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.LosePromo on table losepromo
+2017-02-03 09:32:57,300 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.WeekSent
+2017-02-03 09:32:57,301 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.WeekSent on table weeksent
+2017-02-03 09:32:57,303 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SystemConfig
+2017-02-03 09:32:57,303 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SystemConfig on table systemconfig
+2017-02-03 09:32:57,305 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UpgradeLog
+2017-02-03 09:32:57,305 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UpgradeLog on table userupgradelog
+2017-02-03 09:32:57,307 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCommissions
+2017-02-03 09:32:57,307 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCommissions on table ptcommissions
+2017-02-03 09:32:57,309 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCommissionRecords
+2017-02-03 09:32:57,310 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCommissionRecords on table ptcommissions_record
+2017-02-03 09:32:57,311 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentVip
+2017-02-03 09:32:57,311 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentVip on table agentvip
+2017-02-03 09:32:57,313 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.JCProfitData
+2017-02-03 09:32:57,313 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.JCProfitData on table jc_data
+2017-02-03 09:32:57,314 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Gift
+2017-02-03 09:32:57,314 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Gift on table gift
+2017-02-03 09:32:57,317 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GiftOrder
+2017-02-03 09:32:57,317 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GiftOrder on table gift_order
+2017-02-03 09:32:57,318 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Question
+2017-02-03 09:32:57,318 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Question on table question
+2017-02-03 09:32:57,319 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QuestionStatus
+2017-02-03 09:32:57,320 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QuestionStatus on table question_status
+2017-02-03 09:32:57,320 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SignRecord
+2017-02-03 09:32:57,321 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SignRecord on table signrecord
+2017-02-03 09:32:57,322 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BigBang
+2017-02-03 09:32:57,322 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BigBang on table ptbigbang
+2017-02-03 09:32:57,324 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SlotsMatchWeekly
+2017-02-03 09:32:57,324 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SlotsMatchWeekly on table slots_match_weekly
+2017-02-03 09:32:57,326 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QqInfFromNet
+2017-02-03 09:32:57,326 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QqInfFromNet on table qq_inf_fromnet
+2017-02-03 09:32:57,328 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.NTProfit
+2017-02-03 09:32:57,328 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.NTProfit on table ptprofit
+2017-02-03 09:32:57,329 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DetailPoint
+2017-02-03 09:32:57,329 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DetailPoint on table detailpoint
+2017-02-03 09:32:57,331 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.TotalPoint
+2017-02-03 09:32:57,331 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.TotalPoint on table totalpoint
+2017-02-03 09:32:57,332 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentCustomer
+2017-02-03 09:32:57,332 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentCustomer on table agent_customer
+2017-02-03 09:32:57,334 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AlipayAccount
+2017-02-03 09:32:57,335 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AlipayAccount on table user_alipay_account
+2017-02-03 09:32:57,336 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendbonus
+2017-02-03 09:32:57,337 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendbonus on table friendbonus
+2017-02-03 09:32:57,338 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendbonusrecord
+2017-02-03 09:32:57,338 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendbonusrecord on table friendbonusrecord
+2017-02-03 09:32:57,339 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendintroduce
+2017-02-03 09:32:57,339 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendintroduce on table friendintroduce
+2017-02-03 09:32:57,340 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CreditWarnlogs
+2017-02-03 09:32:57,341 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CreditWarnlogs on table credit_warnlogs
+2017-02-03 09:32:57,342 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedapply
+2017-02-03 09:32:57,342 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedapply on table emigratedapply
+2017-02-03 09:32:57,343 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedbonus
+2017-02-03 09:32:57,343 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedbonus on table emigratedbonus
+2017-02-03 09:32:57,346 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedrecord
+2017-02-03 09:32:57,346 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedrecord on table emigratedrecord
+2017-02-03 09:32:57,347 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBbonus
+2017-02-03 09:32:57,348 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBbonus on table hb_bonus
+2017-02-03 09:32:57,349 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBrecord
+2017-02-03 09:32:57,349 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBrecord on table hb_record
+2017-02-03 09:32:57,351 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Privilege
+2017-02-03 09:32:57,352 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Privilege on table privilege
+2017-02-03 09:32:57,354 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.InternalAgency
+2017-02-03 09:32:57,354 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.InternalAgency on table internal_agency
+2017-02-03 09:32:57,355 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteamapply
+2017-02-03 09:32:57,355 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteamapply on table fightteamapply
+2017-02-03 09:32:57,356 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteambonus
+2017-02-03 09:32:57,357 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteambonus on table fightteambonus
+2017-02-03 09:32:57,358 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteamrecord
+2017-02-03 09:32:57,358 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteamrecord on table fightteamrecord
+2017-02-03 09:32:57,360 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.RecordMail
+2017-02-03 09:32:57,361 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.RecordMail on table other_recordmail
+2017-02-03 09:32:57,362 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UsersAgentGame
+2017-02-03 09:32:57,363 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UsersAgentGame on table users_agent_game
+2017-02-03 09:32:57,364 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UrgeOrder
+2017-02-03 09:32:57,364 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UrgeOrder on table urge_order
+2017-02-03 09:32:57,367 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SMSSwitch
+2017-02-03 09:32:57,367 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SMSSwitch on table smsswitch
+2017-02-03 09:32:57,368 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DepositWechat
+2017-02-03 09:32:57,368 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DepositWechat on table deposit_wechat
+2017-02-03 09:32:57,369 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.MGFreeGameOffer
+2017-02-03 09:32:57,370 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.MGFreeGameOffer on table mgfreegame
+2017-02-03 09:32:57,370 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AddMGFreeGameLog
+2017-02-03 09:32:57,371 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AddMGFreeGameLog on table mgaddfreegamelog
+2017-02-03 09:32:57,372 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgDataRecord
+2017-02-03 09:32:57,372 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgDataRecord on table agdata
+2017-02-03 09:32:57,373 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgConfig
+2017-02-03 09:32:57,374 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgConfig on table ag_config
+2017-02-03 09:32:57,374 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GameCode
+2017-02-03 09:32:57,375 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GameCode on table gamecode
+2017-02-03 09:32:57,376 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PTTransfer2NewHistory
+2017-02-03 09:32:57,376 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PTTransfer2NewHistory on table pt_transfer2new_history
+2017-02-03 09:32:57,387 INFO [org.hibernate.validator.Version] - Hibernate Validator 3.0.0.GA
+2017-02-03 09:32:57,504 INFO [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] - Building new Hibernate SessionFactory
+2017-02-03 09:32:57,617 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.PtCommissionsId
+2017-02-03 09:32:57,618 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.PtCommissionsId
+2017-02-03 09:32:57,619 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.PtCommissionsId
+2017-02-03 09:32:57,619 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.PtCommissionsId
+2017-02-03 09:32:57,620 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.AgentVipId
+2017-02-03 09:32:57,620 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.AgentVipId
+2017-02-03 09:32:57,624 INFO [org.hibernate.connection.ConnectionProviderFactory] - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2017-02-03 09:32:57,915 INFO [org.hibernate.cfg.SettingsFactory] - RDBMS: MySQL, version: 5.1.73
+2017-02-03 09:32:57,916 INFO [org.hibernate.cfg.SettingsFactory] - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+2017-02-03 09:32:57,929 INFO [org.hibernate.dialect.Dialect] - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2017-02-03 09:32:57,932 INFO [org.hibernate.transaction.TransactionFactoryFactory] - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2017-02-03 09:32:57,933 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2017-02-03 09:32:57,933 INFO [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+2017-02-03 09:32:57,934 INFO [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+2017-02-03 09:32:57,934 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch size: 25
+2017-02-03 09:32:57,934 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch updates for versioned data: disabled
+2017-02-03 09:32:57,935 INFO [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: enabled
+2017-02-03 09:32:57,936 INFO [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): enabled
+2017-02-03 09:32:57,936 INFO [org.hibernate.cfg.SettingsFactory] - JDBC result set fetch size: 50
+2017-02-03 09:32:57,936 INFO [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+2017-02-03 09:32:57,937 INFO [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+2017-02-03 09:32:57,937 INFO [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+2017-02-03 09:32:57,937 INFO [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+2017-02-03 09:32:57,938 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+2017-02-03 09:32:57,938 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+2017-02-03 09:32:57,938 INFO [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2017-02-03 09:32:57,940 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - Using ASTQueryTranslatorFactory
+2017-02-03 09:32:57,941 INFO [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+2017-02-03 09:32:57,941 INFO [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+2017-02-03 09:32:57,941 INFO [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+2017-02-03 09:32:57,941 INFO [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+2017-02-03 09:32:57,941 INFO [org.hibernate.cfg.SettingsFactory] - Cache provider: org.hibernate.cache.NoCacheProvider
+2017-02-03 09:32:57,942 INFO [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+2017-02-03 09:32:57,942 INFO [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+2017-02-03 09:32:57,946 INFO [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+2017-02-03 09:32:57,946 INFO [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+2017-02-03 09:32:57,947 INFO [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+2017-02-03 09:32:57,947 INFO [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+2017-02-03 09:32:58,006 INFO [org.hibernate.impl.SessionFactoryImpl] - building session factory
+2017-02-03 09:32:58,643 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - Not binding factory to JNDI, no JNDI name configured
+2017-02-03 09:32:58,657 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Accountinfo
+2017-02-03 09:32:58,658 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Accountinfo on table accountinfo
+2017-02-03 09:32:58,659 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Actionlogs
+2017-02-03 09:32:58,660 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Actionlogs on table actionlogs
+2017-02-03 09:32:58,661 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Announcement
+2017-02-03 09:32:58,661 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Announcement on table announcement
+2017-02-03 09:32:58,662 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Autotask
+2017-02-03 09:32:58,663 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Autotask on table autotask
+2017-02-03 09:32:58,664 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Banktransfercons
+2017-02-03 09:32:58,664 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Banktransfercons on table banktransfercons
+2017-02-03 09:32:58,665 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Betrecords
+2017-02-03 09:32:58,666 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Betrecords on table betrecords
+2017-02-03 09:32:58,667 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Cashin
+2017-02-03 09:32:58,667 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Cashin on table cashin
+2017-02-03 09:32:58,668 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Cashout
+2017-02-03 09:32:58,669 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Cashout on table cashout
+2017-02-03 09:32:58,671 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Commissionrecords
+2017-02-03 09:32:58,672 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Commissionrecords on table commissionrecords
+2017-02-03 09:32:58,675 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Commissions
+2017-02-03 09:32:58,675 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Commissions on table commissions
+2017-02-03 09:32:58,678 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Concessions
+2017-02-03 09:32:58,679 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Concessions on table concessions
+2017-02-03 09:32:58,680 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Const
+2017-02-03 09:32:58,680 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Const on table const
+2017-02-03 09:32:58,681 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Creditlogs
+2017-02-03 09:32:58,682 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Creditlogs on table creditlogs
+2017-02-03 09:32:58,683 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.InnodbMonitor
+2017-02-03 09:32:58,683 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.InnodbMonitor on table innodb_monitor
+2017-02-03 09:32:58,684 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Netpay
+2017-02-03 09:32:58,684 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Netpay on table netpay
+2017-02-03 09:32:58,685 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Newaccount
+2017-02-03 09:32:58,686 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Newaccount on table newaccount
+2017-02-03 09:32:58,687 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Offer
+2017-02-03 09:32:58,687 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Offer on table offer
+2017-02-03 09:32:58,688 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Operationlogs
+2017-02-03 09:32:58,689 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Operationlogs on table operationlogs
+2017-02-03 09:32:58,690 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Operator
+2017-02-03 09:32:58,690 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Operator on table operator
+2017-02-03 09:32:58,692 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Payorder
+2017-02-03 09:32:58,692 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Payorder on table payorder
+2017-02-03 09:32:58,695 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Prize
+2017-02-03 09:32:58,695 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Prize on table prize
+2017-02-03 09:32:58,696 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Proposal
+2017-02-03 09:32:58,697 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Proposal on table proposal
+2017-02-03 09:32:58,700 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Rebankinfo
+2017-02-03 09:32:58,700 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Rebankinfo on table rebankinfo
+2017-02-03 09:32:58,701 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Remoteurls
+2017-02-03 09:32:58,702 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Remoteurls on table remoteurls
+2017-02-03 09:32:58,702 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Seq
+2017-02-03 09:32:58,703 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Seq on table seq
+2017-02-03 09:32:58,703 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Task
+2017-02-03 09:32:58,704 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Task on table task
+2017-02-03 09:32:58,705 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Transfer
+2017-02-03 09:32:58,705 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Transfer on table transfer
+2017-02-03 09:32:58,706 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Users
+2017-02-03 09:32:58,707 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Users on table users
+2017-02-03 09:32:58,711 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Xima
+2017-02-03 09:32:58,711 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Xima on table xima
+2017-02-03 09:32:58,712 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.New_NetPay
+2017-02-03 09:32:58,713 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.New_NetPay on table new_netpay
+2017-02-03 09:32:58,714 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GGameinfo
+2017-02-03 09:32:58,714 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GGameinfo on table g_gameinfo
+2017-02-03 09:32:58,715 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Userbankinfo
+2017-02-03 09:32:58,716 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Userbankinfo on table userbankinfo
+2017-02-03 09:32:58,717 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BankStatus
+2017-02-03 09:32:58,717 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BankStatus on table t_bank_status
+2017-02-03 09:32:58,718 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisit
+2017-02-03 09:32:58,718 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisit on table telvisit
+2017-02-03 09:32:58,719 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisitremark
+2017-02-03 09:32:58,719 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisitremark on table telvisitremark
+2017-02-03 09:32:58,720 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Telvisittask
+2017-02-03 09:32:58,720 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Telvisittask on table telvisittask
+2017-02-03 09:32:58,722 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Userstatus
+2017-02-03 09:32:58,722 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Userstatus on table userstatus
+2017-02-03 09:32:58,723 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Bankinfo
+2017-02-03 09:32:58,724 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Bankinfo on table bankinfo
+2017-02-03 09:32:58,726 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Intransfer
+2017-02-03 09:32:58,726 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Intransfer on table intransfer
+2017-02-03 09:32:58,727 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CashinRecord
+2017-02-03 09:32:58,728 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CashinRecord on table cashinrecord
+2017-02-03 09:32:58,729 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.IcbcTransfers
+2017-02-03 09:32:58,730 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.IcbcTransfers on table icbc_transfers
+2017-02-03 09:32:58,732 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BusinessProposal
+2017-02-03 09:32:58,733 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BusinessProposal on table businessproposal
+2017-02-03 09:32:58,736 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.EaProfit
+2017-02-03 09:32:58,736 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.EaProfit on table eaprofit
+2017-02-03 09:32:58,737 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgProfit
+2017-02-03 09:32:58,737 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgProfit on table agprofit
+2017-02-03 09:32:58,739 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgTryProfit
+2017-02-03 09:32:58,739 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgTryProfit on table agtryprofit
+2017-02-03 09:32:58,741 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgTryGame
+2017-02-03 09:32:58,741 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgTryGame on table agtrygame
+2017-02-03 09:32:58,742 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BankCreditlogs
+2017-02-03 09:32:58,743 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BankCreditlogs on table bankcreditlogs
+2017-02-03 09:32:58,744 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Customer
+2017-02-03 09:32:58,744 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Customer on table other_customer
+2017-02-03 09:32:58,746 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Activity
+2017-02-03 09:32:58,746 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Activity on table activity
+2017-02-03 09:32:58,748 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CmbTransfers
+2017-02-03 09:32:58,748 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CmbTransfers on table cmb_transfers
+2017-02-03 09:32:58,750 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtProfit
+2017-02-03 09:32:58,750 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtProfit on table ptprofit
+2017-02-03 09:32:58,751 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HdImage
+2017-02-03 09:32:58,752 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HdImage on table hd_image
+2017-02-03 09:32:58,753 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Sbcoupon
+2017-02-03 09:32:58,754 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Sbcoupon on table sb_coupon
+2017-02-03 09:32:58,755 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Sbbets
+2017-02-03 09:32:58,755 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Sbbets on table sb_bets
+2017-02-03 09:32:58,756 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GameTransfers
+2017-02-03 09:32:58,756 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GameTransfers on table gametransfers
+2017-02-03 09:32:58,759 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QuotalRevision
+2017-02-03 09:32:58,760 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QuotalRevision on table quotalrevision
+2017-02-03 09:32:58,762 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtData
+2017-02-03 09:32:58,763 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtData on table pt_data
+2017-02-03 09:32:58,766 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCoupon
+2017-02-03 09:32:58,766 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCoupon on table pt_coupon
+2017-02-03 09:32:58,768 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtDataNew
+2017-02-03 09:32:58,768 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtDataNew on table pt_data_new
+2017-02-03 09:32:58,770 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PlatformData
+2017-02-03 09:32:58,770 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PlatformData on table platform_data
+2017-02-03 09:32:58,771 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PreferentialRecord
+2017-02-03 09:32:58,771 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PreferentialRecord on table preferential_record
+2017-02-03 09:32:58,772 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PreferTransferRecord
+2017-02-03 09:32:58,772 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PreferTransferRecord on table prefer_transfer_record
+2017-02-03 09:32:58,773 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AlipayTransfers
+2017-02-03 09:32:58,774 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AlipayTransfers on table alipay_transfers
+2017-02-03 09:32:58,776 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DepositOrder
+2017-02-03 09:32:58,776 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DepositOrder on table deposit_order
+2017-02-03 09:32:58,777 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.ValidateAmountDeposit
+2017-02-03 09:32:58,777 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.ValidateAmountDeposit on table validateamount_transfer
+2017-02-03 09:32:58,779 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PayOrderValidation
+2017-02-03 09:32:58,780 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PayOrderValidation on table payorder_validation
+2017-02-03 09:32:58,781 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.YouHuiConfig
+2017-02-03 09:32:58,782 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.YouHuiConfig on table youhui_config
+2017-02-03 09:32:58,783 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBConfig
+2017-02-03 09:32:58,784 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBConfig on table hb_config
+2017-02-03 09:32:58,785 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentAddress
+2017-02-03 09:32:58,785 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentAddress on table agent_address
+2017-02-03 09:32:58,786 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PayMerchant
+2017-02-03 09:32:58,786 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PayMerchant on table paymerchant
+2017-02-03 09:32:58,787 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.LosePromo
+2017-02-03 09:32:58,787 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.LosePromo on table losepromo
+2017-02-03 09:32:58,789 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.WeekSent
+2017-02-03 09:32:58,789 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.WeekSent on table weeksent
+2017-02-03 09:32:58,791 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SystemConfig
+2017-02-03 09:32:58,791 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SystemConfig on table systemconfig
+2017-02-03 09:32:58,792 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UpgradeLog
+2017-02-03 09:32:58,793 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UpgradeLog on table userupgradelog
+2017-02-03 09:32:58,794 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCommissions
+2017-02-03 09:32:58,795 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCommissions on table ptcommissions
+2017-02-03 09:32:58,796 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PtCommissionRecords
+2017-02-03 09:32:58,797 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PtCommissionRecords on table ptcommissions_record
+2017-02-03 09:32:58,797 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentVip
+2017-02-03 09:32:58,798 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentVip on table agentvip
+2017-02-03 09:32:58,799 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.JCProfitData
+2017-02-03 09:32:58,799 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.JCProfitData on table jc_data
+2017-02-03 09:32:58,800 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Gift
+2017-02-03 09:32:58,800 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Gift on table gift
+2017-02-03 09:32:58,802 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GiftOrder
+2017-02-03 09:32:58,802 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GiftOrder on table gift_order
+2017-02-03 09:32:58,803 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Question
+2017-02-03 09:32:58,804 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Question on table question
+2017-02-03 09:32:58,805 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QuestionStatus
+2017-02-03 09:32:58,805 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QuestionStatus on table question_status
+2017-02-03 09:32:58,806 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SignRecord
+2017-02-03 09:32:58,806 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SignRecord on table signrecord
+2017-02-03 09:32:58,807 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.BigBang
+2017-02-03 09:32:58,808 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.BigBang on table ptbigbang
+2017-02-03 09:32:58,809 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SlotsMatchWeekly
+2017-02-03 09:32:58,810 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SlotsMatchWeekly on table slots_match_weekly
+2017-02-03 09:32:58,810 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.QqInfFromNet
+2017-02-03 09:32:58,811 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.QqInfFromNet on table qq_inf_fromnet
+2017-02-03 09:32:58,812 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.NTProfit
+2017-02-03 09:32:58,812 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.NTProfit on table ptprofit
+2017-02-03 09:32:58,813 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DetailPoint
+2017-02-03 09:32:58,814 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DetailPoint on table detailpoint
+2017-02-03 09:32:58,815 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.TotalPoint
+2017-02-03 09:32:58,815 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.TotalPoint on table totalpoint
+2017-02-03 09:32:58,816 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentCustomer
+2017-02-03 09:32:58,816 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentCustomer on table agent_customer
+2017-02-03 09:32:58,817 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AlipayAccount
+2017-02-03 09:32:58,818 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AlipayAccount on table user_alipay_account
+2017-02-03 09:32:58,818 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendbonus
+2017-02-03 09:32:58,819 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendbonus on table friendbonus
+2017-02-03 09:32:58,820 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendbonusrecord
+2017-02-03 09:32:58,820 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendbonusrecord on table friendbonusrecord
+2017-02-03 09:32:58,821 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Friendintroduce
+2017-02-03 09:32:58,821 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Friendintroduce on table friendintroduce
+2017-02-03 09:32:58,822 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.CreditWarnlogs
+2017-02-03 09:32:58,822 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.CreditWarnlogs on table credit_warnlogs
+2017-02-03 09:32:58,823 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedapply
+2017-02-03 09:32:58,823 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedapply on table emigratedapply
+2017-02-03 09:32:58,824 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedbonus
+2017-02-03 09:32:58,824 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedbonus on table emigratedbonus
+2017-02-03 09:32:58,825 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Emigratedrecord
+2017-02-03 09:32:58,826 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Emigratedrecord on table emigratedrecord
+2017-02-03 09:32:58,827 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBbonus
+2017-02-03 09:32:58,827 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBbonus on table hb_bonus
+2017-02-03 09:32:58,828 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.HBrecord
+2017-02-03 09:32:58,828 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.HBrecord on table hb_record
+2017-02-03 09:32:58,829 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Privilege
+2017-02-03 09:32:58,830 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Privilege on table privilege
+2017-02-03 09:32:58,831 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.InternalAgency
+2017-02-03 09:32:58,831 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.InternalAgency on table internal_agency
+2017-02-03 09:32:58,832 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteamapply
+2017-02-03 09:32:58,832 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteamapply on table fightteamapply
+2017-02-03 09:32:58,833 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteambonus
+2017-02-03 09:32:58,833 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteambonus on table fightteambonus
+2017-02-03 09:32:58,834 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Fightteamrecord
+2017-02-03 09:32:58,834 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Fightteamrecord on table fightteamrecord
+2017-02-03 09:32:58,835 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.RecordMail
+2017-02-03 09:32:58,836 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.RecordMail on table other_recordmail
+2017-02-03 09:32:58,837 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UsersAgentGame
+2017-02-03 09:32:58,838 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UsersAgentGame on table users_agent_game
+2017-02-03 09:32:58,838 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.UrgeOrder
+2017-02-03 09:32:58,839 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.UrgeOrder on table urge_order
+2017-02-03 09:32:58,840 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.SMSSwitch
+2017-02-03 09:32:58,841 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.SMSSwitch on table smsswitch
+2017-02-03 09:32:58,841 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.DepositWechat
+2017-02-03 09:32:58,842 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.DepositWechat on table deposit_wechat
+2017-02-03 09:32:58,843 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.MGFreeGameOffer
+2017-02-03 09:32:58,843 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.MGFreeGameOffer on table mgfreegame
+2017-02-03 09:32:58,844 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AddMGFreeGameLog
+2017-02-03 09:32:58,844 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AddMGFreeGameLog on table mgaddfreegamelog
+2017-02-03 09:32:58,845 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgDataRecord
+2017-02-03 09:32:58,846 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgDataRecord on table agdata
+2017-02-03 09:32:58,847 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgConfig
+2017-02-03 09:32:58,847 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgConfig on table ag_config
+2017-02-03 09:32:58,848 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.GameCode
+2017-02-03 09:32:58,848 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.GameCode on table gamecode
+2017-02-03 09:32:58,849 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.PTTransfer2NewHistory
+2017-02-03 09:32:58,849 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.PTTransfer2NewHistory on table pt_transfer2new_history
+2017-02-03 09:32:58,922 INFO [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] - Building new Hibernate SessionFactory
+2017-02-03 09:32:58,955 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.PtCommissionsId
+2017-02-03 09:32:58,956 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.PtCommissionsId
+2017-02-03 09:32:58,956 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.PtCommissionsId
+2017-02-03 09:32:58,957 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.PtCommissionsId
+2017-02-03 09:32:58,957 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override equals(): dfh.model.AgentVipId
+2017-02-03 09:32:58,957 WARN [org.hibernate.mapping.RootClass] - composite-id class does not override hashCode(): dfh.model.AgentVipId
+2017-02-03 09:32:58,959 INFO [org.hibernate.connection.ConnectionProviderFactory] - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2017-02-03 09:32:59,120 INFO [org.hibernate.cfg.SettingsFactory] - RDBMS: MySQL, version: 5.1.73
+2017-02-03 09:32:59,120 INFO [org.hibernate.cfg.SettingsFactory] - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+2017-02-03 09:32:59,121 INFO [org.hibernate.dialect.Dialect] - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2017-02-03 09:32:59,121 INFO [org.hibernate.transaction.TransactionFactoryFactory] - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2017-02-03 09:32:59,121 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2017-02-03 09:32:59,121 INFO [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+2017-02-03 09:32:59,122 INFO [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+2017-02-03 09:32:59,122 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch size: 25
+2017-02-03 09:32:59,122 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch updates for versioned data: disabled
+2017-02-03 09:32:59,122 INFO [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: enabled
+2017-02-03 09:32:59,123 INFO [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): enabled
+2017-02-03 09:32:59,123 INFO [org.hibernate.cfg.SettingsFactory] - JDBC result set fetch size: 50
+2017-02-03 09:32:59,123 INFO [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+2017-02-03 09:32:59,123 INFO [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+2017-02-03 09:32:59,123 INFO [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+2017-02-03 09:32:59,124 INFO [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+2017-02-03 09:32:59,124 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+2017-02-03 09:32:59,124 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+2017-02-03 09:32:59,124 INFO [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2017-02-03 09:32:59,125 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - Using ASTQueryTranslatorFactory
+2017-02-03 09:32:59,125 INFO [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+2017-02-03 09:32:59,125 INFO [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+2017-02-03 09:32:59,125 INFO [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+2017-02-03 09:32:59,125 INFO [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+2017-02-03 09:32:59,126 INFO [org.hibernate.cfg.SettingsFactory] - Cache provider: org.hibernate.cache.NoCacheProvider
+2017-02-03 09:32:59,126 INFO [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+2017-02-03 09:32:59,126 INFO [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+2017-02-03 09:32:59,126 INFO [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+2017-02-03 09:32:59,127 INFO [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+2017-02-03 09:32:59,127 INFO [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+2017-02-03 09:32:59,127 INFO [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+2017-02-03 09:32:59,155 INFO [org.hibernate.impl.SessionFactoryImpl] - building session factory
+2017-02-03 09:32:59,332 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - Not binding factory to JNDI, no JNDI name configured
+2017-02-03 09:32:59,336 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.ObTask
+2017-02-03 09:32:59,336 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.ObTask on table obtask
+2017-02-03 09:32:59,344 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.TaskContact
+2017-02-03 09:32:59,346 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.TaskContact on table task_contact
+2017-02-03 09:32:59,350 INFO [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] - Building new Hibernate SessionFactory
+2017-02-03 09:32:59,352 INFO [org.hibernate.connection.ConnectionProviderFactory] - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2017-02-03 09:32:59,383 WARN [org.hibernate.util.JDBCExceptionReporter] - SQL Error: 0, SQLState: null
+2017-02-03 09:32:59,383 ERROR [org.hibernate.util.JDBCExceptionReporter] - Cannot create PoolableConnectionFactory (Access denied for user 'task'@'172.16.35.237' (using password: YES))
+2017-02-03 09:32:59,384 WARN [org.hibernate.cfg.SettingsFactory] - Could not obtain connection metadata
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Access denied for user 'task'@'172.16.35.237' (using password: YES))
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider.getConnection(LocalDataSourceConnectionProvider.java:82)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:84)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2009)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1292)
+	at org.hibernate.cfg.AnnotationConfiguration.buildSessionFactory(AnnotationConfiguration.java:915)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.newSessionFactory(LocalSessionFactoryBean.java:814)
+	at org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:732)
+	at org.springframework.orm.hibernate3.AbstractSessionFactoryBean.afterPropertiesSet(AbstractSessionFactoryBean.java:211)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1369)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1335)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:473)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:423)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:728)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:380)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:255)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:199)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:45)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1863)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:836)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:762)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:618)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:565)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:301)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:836)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:762)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1454)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:74)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1295)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1387)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:303)
+	at sun.rmi.transport.Transport$1.run(Transport.java:159)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:155)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:535)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:790)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:649)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.sql.SQLException: Access denied for user 'task'@'172.16.35.237' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:911)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3953)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1276)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2048)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:723)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.GeneratedConstructorAccessor25.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 68 more
+2017-02-03 09:32:59,387 INFO [org.hibernate.dialect.Dialect] - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2017-02-03 09:32:59,388 INFO [org.hibernate.transaction.TransactionFactoryFactory] - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2017-02-03 09:32:59,388 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2017-02-03 09:32:59,389 INFO [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+2017-02-03 09:32:59,389 INFO [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+2017-02-03 09:32:59,389 INFO [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: disabled
+2017-02-03 09:32:59,389 INFO [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): disabled
+2017-02-03 09:32:59,390 INFO [org.hibernate.cfg.SettingsFactory] - JDBC result set fetch size: 50
+2017-02-03 09:32:59,390 INFO [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+2017-02-03 09:32:59,390 INFO [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+2017-02-03 09:32:59,390 INFO [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+2017-02-03 09:32:59,390 INFO [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+2017-02-03 09:32:59,391 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+2017-02-03 09:32:59,391 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+2017-02-03 09:32:59,391 INFO [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2017-02-03 09:32:59,391 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - Using ASTQueryTranslatorFactory
+2017-02-03 09:32:59,391 INFO [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+2017-02-03 09:32:59,392 INFO [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+2017-02-03 09:32:59,392 INFO [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+2017-02-03 09:32:59,392 INFO [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+2017-02-03 09:32:59,392 INFO [org.hibernate.cfg.SettingsFactory] - Cache provider: org.hibernate.cache.NoCacheProvider
+2017-02-03 09:32:59,392 INFO [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+2017-02-03 09:32:59,393 INFO [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+2017-02-03 09:32:59,393 INFO [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+2017-02-03 09:32:59,393 INFO [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+2017-02-03 09:32:59,393 INFO [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+2017-02-03 09:32:59,393 INFO [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+2017-02-03 09:32:59,397 INFO [org.hibernate.impl.SessionFactoryImpl] - building session factory
+2017-02-03 09:32:59,415 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - Not binding factory to JNDI, no JNDI name configured
+2017-02-03 09:32:59,417 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.Guestbook
+2017-02-03 09:32:59,417 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.Guestbook on table guestbook
+2017-02-03 09:32:59,419 INFO [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: dfh.model.AgentVisit
+2017-02-03 09:32:59,419 INFO [org.hibernate.cfg.annotations.EntityBinder] - Bind entity dfh.model.AgentVisit on table agent_visit
+2017-02-03 09:32:59,421 INFO [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] - Building new Hibernate SessionFactory
+2017-02-03 09:32:59,423 INFO [org.hibernate.connection.ConnectionProviderFactory] - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2017-02-03 09:32:59,731 INFO [org.hibernate.cfg.SettingsFactory] - RDBMS: MySQL, version: 5.1.73
+2017-02-03 09:32:59,732 INFO [org.hibernate.cfg.SettingsFactory] - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+2017-02-03 09:32:59,732 INFO [org.hibernate.dialect.Dialect] - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2017-02-03 09:32:59,732 INFO [org.hibernate.transaction.TransactionFactoryFactory] - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2017-02-03 09:32:59,733 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2017-02-03 09:32:59,733 INFO [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+2017-02-03 09:32:59,733 INFO [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+2017-02-03 09:32:59,733 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch size: 25
+2017-02-03 09:32:59,733 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch updates for versioned data: disabled
+2017-02-03 09:32:59,734 INFO [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: enabled
+2017-02-03 09:32:59,734 INFO [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): enabled
+2017-02-03 09:32:59,734 INFO [org.hibernate.cfg.SettingsFactory] - JDBC result set fetch size: 50
+2017-02-03 09:32:59,734 INFO [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+2017-02-03 09:32:59,734 INFO [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+2017-02-03 09:32:59,735 INFO [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+2017-02-03 09:32:59,735 INFO [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+2017-02-03 09:32:59,735 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+2017-02-03 09:32:59,735 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+2017-02-03 09:32:59,735 INFO [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2017-02-03 09:32:59,736 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - Using ASTQueryTranslatorFactory
+2017-02-03 09:32:59,736 INFO [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+2017-02-03 09:32:59,736 INFO [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+2017-02-03 09:32:59,736 INFO [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+2017-02-03 09:32:59,736 INFO [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+2017-02-03 09:32:59,737 INFO [org.hibernate.cfg.SettingsFactory] - Cache provider: org.hibernate.cache.NoCacheProvider
+2017-02-03 09:32:59,737 INFO [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+2017-02-03 09:32:59,737 INFO [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+2017-02-03 09:32:59,737 INFO [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+2017-02-03 09:32:59,737 INFO [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+2017-02-03 09:32:59,738 INFO [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+2017-02-03 09:32:59,738 INFO [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+2017-02-03 09:32:59,741 INFO [org.hibernate.impl.SessionFactoryImpl] - building session factory
+2017-02-03 09:32:59,748 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - Not binding factory to JNDI, no JNDI name configured
+2017-02-03 09:32:59,749 INFO [org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean] - Building new Hibernate SessionFactory
+2017-02-03 09:32:59,750 INFO [org.hibernate.connection.ConnectionProviderFactory] - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2017-02-03 09:32:59,864 INFO [org.hibernate.cfg.SettingsFactory] - RDBMS: MySQL, version: 5.1.73
+2017-02-03 09:32:59,864 INFO [org.hibernate.cfg.SettingsFactory] - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+2017-02-03 09:32:59,864 INFO [org.hibernate.dialect.Dialect] - Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2017-02-03 09:32:59,865 INFO [org.hibernate.transaction.TransactionFactoryFactory] - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2017-02-03 09:32:59,865 INFO [org.hibernate.transaction.TransactionManagerLookupFactory] - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2017-02-03 09:32:59,865 INFO [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+2017-02-03 09:32:59,865 INFO [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+2017-02-03 09:32:59,866 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch size: 25
+2017-02-03 09:32:59,866 INFO [org.hibernate.cfg.SettingsFactory] - JDBC batch updates for versioned data: disabled
+2017-02-03 09:32:59,866 INFO [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: enabled
+2017-02-03 09:32:59,866 INFO [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): enabled
+2017-02-03 09:32:59,866 INFO [org.hibernate.cfg.SettingsFactory] - JDBC result set fetch size: 50
+2017-02-03 09:32:59,867 INFO [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+2017-02-03 09:32:59,867 INFO [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+2017-02-03 09:32:59,867 INFO [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+2017-02-03 09:32:59,867 INFO [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+2017-02-03 09:32:59,868 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+2017-02-03 09:32:59,868 INFO [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+2017-02-03 09:32:59,868 INFO [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2017-02-03 09:32:59,868 INFO [org.hibernate.hql.ast.ASTQueryTranslatorFactory] - Using ASTQueryTranslatorFactory
+2017-02-03 09:32:59,868 INFO [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+2017-02-03 09:32:59,869 INFO [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+2017-02-03 09:32:59,869 INFO [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+2017-02-03 09:32:59,869 INFO [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+2017-02-03 09:32:59,869 INFO [org.hibernate.cfg.SettingsFactory] - Cache provider: org.hibernate.cache.NoCacheProvider
+2017-02-03 09:32:59,869 INFO [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+2017-02-03 09:32:59,870 INFO [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+2017-02-03 09:32:59,870 INFO [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+2017-02-03 09:32:59,870 INFO [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+2017-02-03 09:32:59,870 INFO [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+2017-02-03 09:32:59,871 INFO [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+2017-02-03 09:32:59,873 INFO [org.hibernate.impl.SessionFactoryImpl] - building session factory
+2017-02-03 09:32:59,873 INFO [org.hibernate.impl.SessionFactoryObjectFactory] - Not binding factory to JNDI, no JNDI name configured
+2017-02-03 09:32:59,931 INFO [org.springframework.orm.hibernate3.HibernateTransactionManager] - Using DataSource [org.apache.commons.dbcp.BasicDataSource@377b55e6] of Hibernate SessionFactory for HibernateTransactionManager
+>>>>in MySecureProtocolSocketFactory>>
+2017-02-03 09:33:00,436 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-02-03 09:33:00,437 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2017-02-03 09:33:00,438 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2017-02-03 09:33:00,439 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2017-02-03 09:33:00,439 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2017-02-03 09:33:00,442 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3ae490fa
+2017-02-03 09:33:00,442 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2017-02-03 09:33:00,442 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2017-02-03 09:33:00,448 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4396 ms
+2017-02-03 09:33:00,484 INFO [dfh.listener.OfficeContextListener] - load enums...
+2017-02-03 09:33:00,504 INFO [dfh.listener.OfficeContextListener] - load authorities...
+2017-02-03 09:33:00,519 INFO [dfh.listener.OfficeContextListener] - <?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- 通过的(ip allow of ip) 以,号分隔(, compart) 如果要求某一段给通过 示例(111.111.111.*** 或 111.111.***.***) 3个* 最多到B类-->
+	<allow>110.165.43.***,110.165.43.***,58.69.130.***,202.65.197.***,119.42.150.***</allow>
+	<!-- 拒绝的ip deny of ip 以,号分隔(,compart) 如果要求某一段给通过示例(111.111.111.*** 或 111.111.***.***) 3个* 最多到B类-->
+	<deny>111.111.111.111,222.222.222.222</deny>
+</config>
+2017-02-03 09:33:00,520 INFO [dfh.listener.OfficeContextListener] - load IPseeker...
+2017-02-03 09:33:00,726 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - Parsing configuration file [struts-default.xml]
+2017-02-03 09:33:00,874 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2017-2-3 9:33:00 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\work\apache-tomcat-7.0.72\webapps\manager
+2017-2-3 9:33:00 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\work\apache-tomcat-7.0.72\webapps\manager has finished in 76 ms
+2017-02-03 09:33:01,007 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - Parsing configuration file [struts-plugin.xml]
+2017-02-03 09:33:01,138 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - Parsing configuration file [struts.xml]
+2017-02-03 09:33:01,141 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2017-02-03 09:33:01,142 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2017-02-03 09:33:01,142 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2017-02-03 09:33:01,142 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2017-02-03 09:33:01,142 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2017-02-03 09:33:01,143 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2017-02-03 09:33:01,143 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2017-02-03 09:33:01,143 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2017-02-03 09:33:01,143 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2017-02-03 09:33:01,143 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2017-02-03 09:33:01,144 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2017-02-03 09:33:01,144 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2017-02-03 09:33:01,144 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2017-02-03 09:33:01,144 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2017-02-03 09:33:01,145 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2017-02-03 09:33:01,145 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2017-02-03 09:33:01,145 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2017-02-03 09:33:01,145 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2017-02-03 09:33:01,146 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2017-02-03 09:33:01,146 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2017-02-03 09:33:01,147 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2017-02-03 09:33:01,147 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2017-02-03 09:33:01,147 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2017-02-03 09:33:01,147 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2017-02-03 09:33:01,147 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2017-02-03 09:33:01,148 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.views.velocity.VelocityManager)
+2017-02-03 09:33:01,148 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2017-02-03 09:33:01,148 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2017-02-03 09:33:01,148 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2017-02-03 09:33:01,148 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2017-02-03 09:33:01,149 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2017-02-03 09:33:01,149 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2017-02-03 09:33:01,149 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2017-02-03 09:33:01,149 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2017-02-03 09:33:01,150 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2017-02-03 09:33:01,150 INFO [org.apache.struts2.config.AbstractBeanSelectionProvider] - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2017-02-03 09:33:01,153 INFO [org.apache.struts2.config.DefaultBeanSelectionProvider] - Loading global messages from [lang]
+2017-02-03 09:33:01,169 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - Initializing Struts-Spring integration...
+2017-02-03 09:33:01,169 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - Setting autowire strategy to name
+2017-02-03 09:33:01,170 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - ... initialized Struts-Spring integration successfully
+[2017-02-03 09:33:01,842] Artifact slot_office:Web exploded: Artifact is deployed successfully
+[2017-02-03 09:33:01,842] Artifact slot_office:Web exploded: Deploy took 10,546 milliseconds
+2017-2-3 9:33:03 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-02-03 09:33:05,147 WARN [org.apache.struts2.util.TextProviderHelper] - The first TextProvider in the ValueStack (dfh.action.I18NAction) could not locate the message resource with key '短信验证码'
+2017-02-03 09:33:05,148 WARN [org.apache.struts2.util.TextProviderHelper] - The default value expression '短信验证码' was evaluated and did not match a property.  The literal value '短信验证码' will be used.
+2017-02-03 09:33:05,641 WARN [org.apache.struts2.util.TextProviderHelper] - The first TextProvider in the ValueStack (dfh.action.I18NAction) could not locate the message resource with key '短信验证码'
+2017-02-03 09:33:05,642 WARN [org.apache.struts2.util.TextProviderHelper] - The default value expression '短信验证码' was evaluated and did not match a property.  The literal value '短信验证码' will be used.
+2017-02-03 09:33:07,761 WARN [org.apache.struts2.util.TextProviderHelper] - The first TextProvider in the ValueStack (dfh.action.I18NAction) could not locate the message resource with key '短信验证码'
+2017-02-03 09:33:07,762 WARN [org.apache.struts2.util.TextProviderHelper] - The default value expression '短信验证码' was evaluated and did not match a property.  The literal value '短信验证码' will be used.
+2017-2-3 9:34:16 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
+2017-2-3 9:36:53 org.apache.catalina.core.StandardServer await
+警告: StandardServer.await: Invalid command '' received
